@@ -1,1 +1,37 @@
 /*  your css code here. If applicable */
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url('https://www.pinterest.com/source/homedit.com/10-inspiring-home-office-ideas-that-will-boost-your-productivity-1.jpg') no-repeat center center/cover;
+}
+
+.hero img {
+  width: 150px;
+  height: auto;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.hero h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
